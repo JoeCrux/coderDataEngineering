@@ -15,4 +15,9 @@ Actividades
 | ------ | ------ |
 | Tabla creada en Redshift. | ![printPantallaTablaCreadaRedshift](https://github.com/JoeCrux/coderDataEngineering/assets/118003007/0be35b5e-5106-4904-8a12-37092fd64514) |
 
+# Entregable 2
+### Objetivos generales
+El script de la entrega 1 deberá adaptar datos leídos de la API y cargarlos en la tabla creada en la pre-entrega anterior en Redshift con transformaciones
+- Implementar funcionalidades de la librería Pandas en el código cargándolos en la tabla creada en la misma.
+- Solucionar una situación real de ETL donde puedan llegar a aparecer duplicados durante la ingesta de los datos
 
