@@ -1,10 +1,10 @@
 create table company_earnings(
-		actual decimal NULL,
-		estimate decimal NULL,
-		periodo date NULL,
-		cuarto int NULL,
-		surprise decimal NULL,
-		surprisePercent decimal NULL,
-		symbol varchar(15) NULL,   
-		anio int NULL
-	)
+		actual decimal,
+		estimate decimal,
+		periodo date,
+		cuarto int,
+		surprise decimal,
+		surprisePercent decimal,
+		symbol varchar(15) DISTKEY,   
+		anio int 
+	) SORTKEY (anio)
