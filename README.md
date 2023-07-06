@@ -23,6 +23,8 @@ El script de la entrega 1 deberá adaptar datos leídos de la API y cargarlos en
 
 Actividades
 - Se tomaron las sugerencias de correccion del entregable 1, al crear la tabla se agregaron conceptos de SORTKEY y DISTKEY
+  ![comandoSqlActualizado](https://github.com/JoeCrux/coderDataEngineering/assets/118003007/10746f86-daba-4f74-8b62-6c5a90db5cdf)
+
 - Se ordeno el data frame por dos columnas. Se puede visualizar en los comentarios los pasos realizados para la insercion de datos en el script: scriptDesafioClase7.py que se encuentra en el repositorio
 
 | Comentario | Imagen |
