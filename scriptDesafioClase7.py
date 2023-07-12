@@ -1,3 +1,5 @@
+import os
+from decouple import config
 import finnhub
 import pandas as pd
 import psycopg2
@@ -22,11 +24,12 @@ df =  pd.DataFrame(finnhub_client.company_earnings('TSLA', limit=5))
 dforder = df.sort_values(['period', 'quarter'])
 
 #constantes datos acceso a Redshift
-hostname= 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com'
-database= 'data-engineer-database'
-username= 'jolcrux77_coderhouse'
-pwd='180IXrK1xe'
-port_id= '5439'
+
+hostname= config('hostname_red')
+database= config('database_red')
+username= config('username_red')
+pwd= config('pwd_red')
+port_id= config('port_id_red')
 
 # Conexion a redshift
 conn = psycopg2.connect(host=hostname, dbname=database, user=username, password=pwd, port=port_id)
