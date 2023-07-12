@@ -1,5 +1,8 @@
 # Data Engineering Flex
 ## Repositorio actividades curso Data Engineering Flex
+```sh
+Importante: para ejecutar el proyecto se debe crear un archivo .env en la carpeta raiz del mismo. Y acceder con sus propias credenciales a la base de datos.
+```
 # Entregable 1
 ### Objetivos generales
 Tener un código inicial que será usado en el proyecto final como un script ETL inicial. 
