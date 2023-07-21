@@ -46,6 +46,6 @@ El script de la 2da entrega debe correr en un container de Docker y estará embe
 - subido en repositorio de Github.
 
 # IMPORTANTE: 
-solo se agrego un archivo docker-compose.yaml, usando el comando curl -LfO "https://airflow.apache.org/docs/apache-airflow/2.6.3/docker-compose.yaml" siguiendo los pasos de la web oficial https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html.
-Espero que se pueda considerar esto ya que he estado absorvido por el trabajo, lo que me impidio estar al dia con el curso. Espero poder ponerme al dia en esta semana para presentar un trabajo nuevamente de acuerdo a lo requerido. Les pido disculpas.
+Solo se agrego un archivo docker-compose.yaml, usando el comando curl -LfO "https://airflow.apache.org/docs/apache-airflow/2.6.3/docker-compose.yaml" siguiendo los pasos de la web oficial https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html.
+Espero que se pueda considerar esta presentacion ya que he estado absorbido por el trabajo, lo que me impidio estar al dia con el curso. Les pido disculpas.
 
