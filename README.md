@@ -38,5 +38,14 @@ Actividades
 | Visualizacion despues de insercion de datos | ![imagenDatosInsertados](https://github.com/JoeCrux/coderDataEngineering/assets/118003007/6fc28c90-707d-41aa-98a1-193b148b3283) |
 
 
+# Entregable 3
+### Objetivos generales
+El script de la 2da entrega debe correr en un container de Docker y estará embebido en un DAG de Airflow dentro del container.
+- Dockerfile y código con todo lo necesario para correr
+- manual de instrucciones o pasos para correrlo
+- subido en repositorio de Github.
 
+# IMPORTANTE: 
+solo se agrego un archivo docker-compose.yaml, usando el comando curl -LfO "https://airflow.apache.org/docs/apache-airflow/2.6.3/docker-compose.yaml" siguiendo los pasos de la web oficial https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html.
+Espero que se pueda considerar esto ya que he estado absorvido por el trabajo, lo que me impidio estar al dia con el curso. Espero poder ponerme al dia en esta semana para presentar un trabajo nuevamente de acuerdo a lo requerido. Les pido disculpas.
 
